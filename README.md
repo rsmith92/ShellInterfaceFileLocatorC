@@ -1,4 +1,5 @@
 # ShellInterfaceFileLocatorC <br />
+<pre>
 -findstuff.c is a file written in C that displays a shell and allows for commands to find files. <br />
 -These commands include: <br />
   -find <filename> -f:ABC -s => find the given filename, both f and s are optional arguments. <br />
@@ -19,3 +20,4 @@
   
   
 
+<pre>
