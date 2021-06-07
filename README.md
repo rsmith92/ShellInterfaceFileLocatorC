@@ -15,7 +15,22 @@
   
 -Included in this repository are a few .txt files I used for testing as well as a sub-directory I used for testing.<br />
 
-  
+Example Inputs:
+
+list                        => list the child processes.
+kill 1                      => kill the child process with serial number 1.
+quit                        => quits the program.
+q                           => quits the program.
+
+find findstuff.c            => look for the file findstuff.c in the current directory.
+find findstuff.c -t:c       => does the same thing as the previous line (file extension already specified).
+find textfile.txt -s        => look for the file textfile.txt in all sub-directories and the current one.
+find textfile.txt -t:txt -s => ultimately does the same thing as the previous line (file ending already specified).
+
+find "word"                 => look for the string "word" in all files in the current directory.
+find "word" -t:txt          => looks for the string "word" in the current directory, but only in files that have the extension txt.
+find "word" -s              => look for the string "word" in all sub-directories and the current one.
+find "word" -t:txt -s       => looks for the string "word" in all sub-directories and the current one, but only in files that have the extension txt.
   
   
   
